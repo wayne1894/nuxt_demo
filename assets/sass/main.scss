@@ -52,3 +52,21 @@
 	@import 'layout/main';
 	@import 'layout/footer';
 	@import 'layout/wrapper';
+
+
+//自訂
+
+#header {
+  padding: 3em 0 0.1em 0;
+  color: #000
+}
+#main h1{
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+#wrapper > * > .inner{
+  max-width: 60em;
+}
+a:hover{
+  color: #484848 !important;
+}

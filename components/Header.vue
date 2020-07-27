@@ -5,7 +5,7 @@
           <!-- Logo -->
            
                 <nuxt-link to="/" class="logo">
-                  <span class="symbol"><img src="~/assets/images/logo.svg" alt="" /></span><span class="title">Phantom</span>
+                  <span class="symbol"><img style="width:100px;height:100px;" src="~/assets/images/logo.png" alt="" /></span><span class="title">wayne1894 個人作品集</span>
                 </nuxt-link>
          
 
@@ -19,3 +19,11 @@
       </div>
   </header>
 </template>
+<style lang="scss" scoped>
+  .symbol img{
+    border-radius: 100px;
+  }
+  .title{
+    font-size: 30px;
+  }
+</style>

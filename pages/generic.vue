@@ -1,50 +1,41 @@
 <template>
   <div id="wrapper">
 
-				<!-- Header -->
- <Header></Header>
+    <!-- Header -->
+    <Header></Header>
 
-				<!-- Menu -->
-			<nav id="menu">
-						<h2>Menu</h2>
-          <ul> 
-							<li><nuxt-link to="/">回首頁</nuxt-link></li>
-							<li><nuxt-link to="/generic">Ipsum veroeros</nuxt-link></li>
-							<li><nuxt-link to="/generic">Tempus etiam</nuxt-link></li>
-							<li><nuxt-link to="/generic">Consequat dolor</nuxt-link></li>
-							<li><nuxt-link to="/generic">Elements</nuxt-link></li>
-						</ul>
-		 </nav>
+    <!-- Menu -->
+    <Menu></Menu>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<h1>Generic Page</h1>
-							<span class="image main"><img src="~/assets/images/pic13.jpg" alt="" /></span>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel venenatis mauris vehicula hendrerit.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
-						</div>
-					</div>
+    <!-- Main -->
+    <div id="main">
+      <div class="inner">
+        <h1>Generic Page</h1>
+        <span class="image main"><img src="~/assets/images/pic13.jpg" alt="" /></span>
+        <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel venenatis mauris vehicula hendrerit.</p>
+        <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+      </div>
+    </div>
 
-				<!-- Footer -->
-				<Footer></Footer>	
+    <!-- Footer -->
+    <Footer></Footer>
 
-			</div>
+  </div>
 </template>
 
 
 
 <script>
-import Header from "~/components/Header.vue";
-import Menu from "~/components/Menu.vue";
-import Footer from "~/components/Footer.vue";  
-  
-export default {
-  components: {
-    Header,
-    Menu,
-    Footer
+  import Header from "~/components/Header.vue";
+  import Menu from "~/components/Menu.vue";
+  import Footer from "~/components/Footer.vue";
+
+  export default {
+    components: {
+      Header,
+      Menu,
+      Footer
+    }
   }
-}
 </script>
