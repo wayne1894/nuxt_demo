@@ -7,7 +7,7 @@
                 <nuxt-link to="/" class="logo">
                   <span class="symbol"><img style="width:100px;height:100px;" src="~/assets/images/logo.png" alt="" /></span><span class="title">wayne1894 個人作品集</span>
                 </nuxt-link>
-         
+         <hr>
 
           <!-- Nav -->
               <nav>
@@ -25,5 +25,9 @@
   }
   .title{
     font-size: 30px;
+  }
+  hr{
+    margin-top: -10px;
+    margin-bottom: 50px;
   }
 </style>
