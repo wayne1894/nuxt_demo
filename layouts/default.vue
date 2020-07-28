@@ -6,6 +6,8 @@
 <script>
 export default{
   mounted(){
+    	var	$window = $(window),
+		$body = $('body');
     // Menu.
 		var $menu = $('#menu');
 
